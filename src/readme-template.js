@@ -1,32 +1,44 @@
-const generateReadme = () => {
+module.exports = (templateData) => {
+  console.log(templateData);
+
   return `
-    # <Project-title>
+# ${templateData.title}
 
-    ## Description
-    -motivation
-    -what problem does this solve
-    -what did you learn
+## ${templateData.description}
+- motivation
+- what problem does this solve
+- what did you learn
 
-    ## Installation
-    -what is required to install your project
+## Table of Contents
+- [Installation](#installation)
+- Usage
+- License
+- Contributing
+- Tests
+- Questions
 
-    ## Usage
-    -Instructions and examples for use  
-    
-    ## Thumbnail
+## Installation
+- What are the steps required
 
-    ## Credits
+## Usage
+- Instructions and examples for use  
 
-    ## License
+## How to Contribute
 
-    ## Badges
+## Test Instructions
 
-    ## Features
+## Credits
+- ${templateData.credits}
 
-    ## How to contrubute
+## License
 
-    ## Tests
-    `;
+## Badges
+
+## Questions
+- Github
+- Email
+
+`;
 };
 
-module.exports = generateReadme;
+// module.exports = generateReadme;

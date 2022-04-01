@@ -1,28 +1,41 @@
+# ReadMe Generator
 
-    # <Project-title>
+## an app to generate a readme!
 
-    ## Description
-    -motivation
-    -what problem does this solve
-    -what did you learn
+- motivation
+- what problem does this solve
+- what did you learn
 
-    ## Installation
-    -what is required to install your project
+## Table of Contents
 
-    ## Usage
-    -Instructions and examples for use  
-    
-    ## Thumbnail
+- [Installation](#installation)
+- Usage
+- License
+- Contributing
+- Tests
+- Questions
 
-    ## Credits
+## Installation
 
-    ## License
+- What are the steps required
 
-    ## Badges
+## Usage
 
-    ## Features
+- Instructions and examples for use
 
-    ## How to contrubute
+## How to Contribute
 
-    ## Tests
-    
+## Test Instructions
+
+## Credits
+
+- Jonathan F.
+
+## License
+
+## Badges
+
+## Questions
+
+- Github
+- Email
