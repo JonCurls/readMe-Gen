@@ -1,4 +1,5 @@
-
+const generateReadme = () => {
+  return `
     # <Project-title>
 
     ## Description
@@ -25,4 +26,7 @@
     ## How to contrubute
 
     ## Tests
-    
+    `;
+};
+
+module.exports = generateReadme;
