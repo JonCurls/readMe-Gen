@@ -1,44 +1,47 @@
 module.exports = (templateData) => {
-  console.log(templateData);
+  // console.log(templateData);
 
   return `
-# ${templateData.title}
+  ${templateData.badge}
 
-## ${templateData.description}
-- motivation
-- what problem does this solve
-- what did you learn
+# **${templateData.title}**
 
-## Table of Contents
+
+## **Description**
+- ${templateData.description}
+
+## **Table of Contents**
 - [Installation](#installation)
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Testing](#testing)
+- [Questions](#questions)
 
-## Installation
-- What are the steps required
 
-## Usage
-- Instructions and examples for use  
+## **Installation**
+- ${templateData.installation}
 
-## How to Contribute
 
-## Test Instructions
+## **Usage**
+- ${templateData.usage}  
 
-## Credits
-- ${templateData.credits}
 
-## License
+## **License**
+- ${templateData.license}
 
-## Badges
 
-## Questions
-- Github
-- Email
+## **Contributing**
+- How to Contrubute
+- ${templateData.contributing}
 
+
+## **Testing**
+- ${templateData.test}
+
+
+## **Questions**
+- www.github.com/${templateData.github}
+- ${templateData.email}
 `;
 };
-
-// module.exports = generateReadme;
