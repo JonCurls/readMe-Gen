@@ -4,7 +4,7 @@
 
 ## **Description**
 
-- an application that will prompt the user for general readme information and will generate a profressional README.md with provided information.
+- An application that will prompt the user for general readme information and will generate a profressional README.md with the provided information.
 
 ## **Table of Contents**
 
@@ -17,12 +17,11 @@
 
 ## **Installation**
 
-- download from github
-- [watch install video ](assets/readmeGen.mkv)
+- download from GitHub
 
 ## **Usage**
 
-- in the terminal use: node index
+- [Watch demo video](assets/demo.mkv)
 
 ## **License**
 
@@ -39,6 +38,8 @@ How to Contrubute
 - TBD
 
 ## **Questions**
+
+Made with ❤️💧🩸
 
 - www.github.com/JonCurls
 - me@myemail.com
