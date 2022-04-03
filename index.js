@@ -1,9 +1,8 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateReadme = require("./src/readme-template.js");
-// TODO: Create an array of questions for user input
 
+// README questions
 const questions = () => {
   return inquirer.prompt([
     {
@@ -67,14 +66,18 @@ const questions = () => {
   ]);
 };
 
+// calls the questions
 questions().then((readmeData) => {
+  // passes to get license badge
   licenseData(readmeData);
   const pageReadme = generateReadme(readmeData);
+  //prints readme.md
   fs.writeFile("./README.md", pageReadme, (err) => {
     err ? console.log(err) : console.log("README successfully created!");
   });
 });
 
+// switch to return matching badge to license
 const licenseData = (readmeData) => {
   switch (readmeData.license) {
     case "Unlicense":
