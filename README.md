@@ -1,10 +1,10 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
-# **ReadMe generator**
+# **Readme Generator**
 
 ## **Description**
 
-- An application that will prompt the user for general readme information and will generate a profressional README.md with the provided information.
+- An application that will prompt user for general readme data and will generate a profressional README.md with providedata
 
 ## **Table of Contents**
 
@@ -17,11 +17,11 @@
 
 ## **Installation**
 
-- download from GitHub
+- download from github
 
 ## **Usage**
 
-- [Watch demo video](assets/demo.mkv)
+- [watch install video](assets/readmeGen.mp4) or use: node index and then follow with terminal prompts.
 
 ## **License**
 
