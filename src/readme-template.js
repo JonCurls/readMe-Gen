@@ -32,7 +32,7 @@ module.exports = (templateData) => {
 
 
 ## **Contributing**
-- How to Contrubute
+How to Contrubute
 - ${templateData.contributing}
 
 
